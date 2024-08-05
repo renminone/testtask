@@ -1,0 +1,4 @@
+{
+    "repo_type": "in_memory",
+    "db_url": "sqlite:///users.db"
+}
