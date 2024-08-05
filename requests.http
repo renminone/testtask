@@ -1,0 +1,24 @@
+### Создание пользователя
+POST http://localhost:8000/user
+Content-Type: application/json
+
+{
+  "id": 1,
+  "lastname": "Ivanov",
+  "firstname": "Ivan",
+  "middlename": "Ivanovich"
+}
+
+### Изменение пользователя
+PUT http://localhost:8000/user/1
+Content-Type: application/json
+
+{
+  "lastname": "Petrov"
+}
+
+### Получение пользователя
+GET http://localhost:8000/user/1
+
+### Удаление пользователя
+DELETE http://localhost:8000/user/1
